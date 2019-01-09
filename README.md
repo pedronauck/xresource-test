@@ -1,4 +1,4 @@
-# datares
+# xresource
 
 > Created by [create-poi-app](https://poi.js.org).
 
@@ -11,5 +11,3 @@ Build app for production to `./dist` folder.
 ### `npm run dev`
 
 Start a dev server to preview your app.
-
-
