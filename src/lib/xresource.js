@@ -50,11 +50,7 @@ export const createResource = ({ state, data, operations }) => {
     op.map(([obj, state]) => async () => {
       const data = await parseDataWithState(obj, state)
       const customOperations = reduceOperations(state, operations)
-      const transform = evolve(customOperations)
-
-      console.log(state)
-
-      return transform(data)
+      return evolve(customOperations, data)
     }),
   )
 
