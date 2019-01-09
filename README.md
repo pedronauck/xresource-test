@@ -8,6 +8,6 @@
 
 Build app for production to `./dist` folder.
 
-### `npm run dev`
+### `npm run start`
 
 Start a dev server to preview your app.

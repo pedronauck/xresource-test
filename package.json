@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "poi --prod",
-    "dev": "poi --serve"
+    "start": "poi --serve --port 8080"
   },
   "devDependencies": {
     "poi": "^12.0.0"
