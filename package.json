@@ -1,5 +1,5 @@
 {
-  "name": "datares",
+  "name": "xresource-test",
   "private": true,
   "scripts": {
     "build": "poi --prod",
